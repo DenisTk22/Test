@@ -3,7 +3,7 @@ import Rating from '@mui/material/Rating';
 import Box from '@mui/material/Box';
 import StarIcon from '@mui/icons-material/Star';
 
-const e = React.createElement;
+// const e = React.createElement;
 
 const labels = {
   0.5: 'Useless',
@@ -54,6 +54,6 @@ export default function HoverRating() {
   );
 }
 
-const domContainer = document.querySelector('#rating');
-const root = ReactDOM.createRoot(domContainer);
-root.render(e(HoverRating));
+// const domContainer = document.querySelector('#rating');
+// const root = ReactDOM.createRoot(domContainer);
+// root.render(e(HoverRating));
